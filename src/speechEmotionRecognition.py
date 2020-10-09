@@ -19,8 +19,8 @@ import librosa
 import bulkDiarize as bk
 model = keras.models.load_model('model/lstm_cnn_rectangular_lowdropout_trainedoncustomdata.h5')
 
-classes = ['Neutral', 'Happy', 'Sad',
-           'Angry', 'Fearful', 'Disgusted', 'Surprised']
+classes = ['Calm', 'Passionate', 'Low-Confidence',
+           'Aggresive', 'Too-Low-Confidence', 'Disgusted', 'Surprised']
 
 
 def predict(folder, classes, model):
