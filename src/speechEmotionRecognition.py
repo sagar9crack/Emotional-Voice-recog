@@ -76,7 +76,7 @@ if __name__ == '__main__':
     os.remove("filterTemp.wav")
                                         
                                         
-   mylist= os.listdir('INPUT_FOLDER_PATH')
+   mylist= os.listdir('/content/Emotional-Voice-recog/src/Emotional-Voice-recog/src/Emotional-Voice-recog/Emotional-Voice-recog/src')
            type(mylist)
            print(mylist[1800])  
            print(mylist[400][6:-16])
