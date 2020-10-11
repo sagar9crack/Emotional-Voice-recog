@@ -76,12 +76,12 @@ if __name__ == '__main__':
     os.remove("filterTemp.wav")
                                         
                                         
-mylist= os.listdir('INPUT_FOLDER_PATH')
- type(mylist)
- print(mylist[1800])  
- print(mylist[400][6:-16])
+   mylist= os.listdir('INPUT_FOLDER_PATH')
+           type(mylist)
+           print(mylist[1800])  
+           print(mylist[400][6:-16])
  
-data, sampling_rate = librosa.load('INPUT_FOLDER_PATH')
+ data, sampling_rate = librosa.load('INPUT_FOLDER_PATH')
 % pylab inline
 import os
 import pandas as pd
